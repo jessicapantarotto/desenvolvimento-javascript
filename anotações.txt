@@ -3,3 +3,5 @@ O curso de Aperfeiçoamento Profissional de Desenvolvimento em Javascript tem po
 
 # PERFIL
 Desenvolver páginas da web interativas, como menus suspensos, formulários de contato e animações. Otimizar a experiência do usuário (UX) de aplicações web e móveis. Implementar elementos de design responsivo para que as aplicações funcionem em diferentes dispositivos e tamanhos de tela. Trabalhar com outras tecnologias de desenvolvimento web, como HTML, CSS e frameworks JavaScript.
+Jessica Pantarotto Soares
+
