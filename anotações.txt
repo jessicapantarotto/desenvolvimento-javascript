@@ -1,2 +1,5 @@
 # Desenvolvimento JavaScript
 O curso de Aperfeiçoamento Profissional de Desenvolvimento em Javascript tem por objetivo o desenvolvimento de competências relativas à que permitem programar em JavaScript com visão no lado do cliente, bem como criar páginas web interativas, animações, jogos e aplicativos da web.
+
+# PERFIL
+Desenvolver páginas da web interativas, como menus suspensos, formulários de contato e animações. Otimizar a experiência do usuário (UX) de aplicações web e móveis. Implementar elementos de design responsivo para que as aplicações funcionem em diferentes dispositivos e tamanhos de tela. Trabalhar com outras tecnologias de desenvolvimento web, como HTML, CSS e frameworks JavaScript.
