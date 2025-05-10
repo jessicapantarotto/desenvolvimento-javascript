@@ -1,0 +1,28 @@
+{
+	"folders": [
+		{
+			"path": "../atv1-cmd"
+		},
+		{
+			"path": "../atv2-requisitos-biblioteca"
+		},
+		{
+			"path": "../atv3-requisitos-login"
+		},
+		{
+			"path": "../atv4-prototipos-figma"
+		},
+		{
+			"path": "../atv7-js condicionais"
+		},
+		{
+			"path": "../atv8-js repeticoes"
+		},
+		{
+			"path": "../atv9-js-funcoes"
+		},
+		{
+			"path": "."
+		}
+	]
+}

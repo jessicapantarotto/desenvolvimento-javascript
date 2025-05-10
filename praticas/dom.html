@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <title>Exemplo DOM</title>
+</head>
+<body>
+    <h1 id="título">Olá DOM!</h1>      
+    <h1 class="título">Olá DOM!</h1>
+    <button onclick="mudarTexto()">Alterar texto</button>
+
+    <h3>Lista de itens</h3>
+    <ul id="lista">
+        <li>item 1</li>
+        <li>item 2</li>
+    </ul>
+
+    <input type="text" name="novoItem" id="novoItem">
+    <button onclick="addItem()">Inserir Item</button>
+    <button onclick="removeUltimoitem()">Remover Último Item</button>
+
+<h3>Alterar cor de fundo</h3>
+<button onclick="mudacorfundo(`lightpink`)">Rosa Claro</button>
+<button onclick="mudacorfundo(`beige`)">Bege</button>
+<button onclick="mudacorfundo(`lightgray`)">Cinza Claro</button>
+
+    <script>
+
+        function mudarTexto(){
+            document.getElementById("título").textContent = "Texto Alterado por ID";
+            document.getElementsByClassName("título")[0].textContent = "Texto Alterado por Classe";
+
+        }
+
+        function addItem(){
+            var texto = document.getElementById("novoItem").value;
+            if (texto.trim() != ""){
+                var li = document.createElement("li")
+                li.textContent = texto.trim();
+                document.getElementById("lista").appendChild(li);
+                document.getElementById("novoItem").value = "";
+                } else {
+                    alert("Digite um texto para inserir");
+
+            }
+
+        }
+
+        function removeUltimoitem(){
+            var lista = document.getElementById("lista");
+            if(lista.lastElementChild){
+                lista.removeChild(lista.lastElementChild);
+            }else{
+                alert("Não existem itens para seremn removidos");
+            }
+        }
+
+
+        function mudacorfundo(cor){
+            document.body.style.backgroundColor = cor;
+
+        }
+
+
+
+
+
+
+    </script>
+
+
+
+
+
+</body>
+</html>
